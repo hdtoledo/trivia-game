@@ -3,9 +3,25 @@
 ## 📌 Descripción
 Trivia Game es una aplicación de preguntas y respuestas interactivas desarrollada con **React** y gestionada con **Zustand** para el estado global. Los usuarios pueden probar sus conocimientos en diferentes categorías y dificultades, con preguntas obtenidas en tiempo real desde la API de **Open Trivia Database**.
 
-Esta Web App fue desarrollada para una prueba tecnica de Desarrollador Frontend
+Esta Web App fue desarrollada para una prueba técnica de Desarrollador Frontend.
 
 💡 **Desarrollado por @hdtoledo para una prueba técnica.** 🚀
+
+🚀 **[Prueba la demo en vivo aquí](https://trivia-game-git-master-hdtoledos-projects.vercel.app)**
+
+---
+
+## 🎨 Vista Previa
+![Trivia Game Preview](./public/001.png)
+![Trivia Game Preview](./public/002.png)
+![Trivia Game Preview](./public/003.png)
+![Trivia Game Preview](./public/004.png)
+
+---
+
+## 🛠️ Prerrequisitos
+- Tener instalado [Node.js](https://nodejs.org/)
+- Tener instalado [Yarn](https://yarnpkg.com/) o usar `npm`
 
 ---
 
@@ -67,6 +83,13 @@ yarn dev  # O npm run dev
 3️⃣ Si tienes dudas, puedes **revelar la respuesta** antes de continuar.  
 4️⃣ Puedes **ver preguntas anteriores** para revisar tu historial.  
 5️⃣ Responde tantas preguntas como quieras y mide tu conocimiento. 🧠✨  
+
+---
+
+## 🎨 Diseño y UX/UI
+- Se utilizó **Tailwind CSS** para una apariencia moderna y responsiva.
+- La paleta de colores sigue un enfoque oscuro con tonos **púrpura y azul** para dar una sensación de misterio y tecnología.
+- Los botones tienen animaciones para mejorar la interactividad.
 
 ---
 
@@ -140,4 +163,5 @@ const useTriviaStore = create<TriviaState>()(
 
 ---
 
-
+## 📜 Licencia
+Este proyecto está bajo la **MIT License**. Puedes usarlo y modificarlo libremente. 😊  
